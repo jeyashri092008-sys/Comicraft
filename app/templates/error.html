@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Error{% endblock %}
+{% block content %}
+<div class="card-container">
+    <div class="form-card">
+        <h2>⚠️ Error Occurred</h2>
+        <pre class="error-box">{{ error_message }}</pre>
+        <a href="/" class="btn primary-btn">Return Home</a>
+    </div>
+</div>
+{% endblock %}

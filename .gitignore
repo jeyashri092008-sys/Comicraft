@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+comiccraft-env/
+.env
+app/static/panels/*
+app/static/exports/*
+!app/static/panels/.gitkeep
+!app/static/exports/.gitkeep
+*.zip
+.DS_Store

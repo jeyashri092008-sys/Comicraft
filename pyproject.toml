@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comiccraft"
+version = "1.0.0"
+description = "AI Comic Story Creator using Gemini Models and Stable Diffusion"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "jinja2",
+    "python-multipart",
+    "python-dotenv",
+    "google-generativeai",
+    "requests",
+    "pillow",
+    "fpdf2",
+    "pydantic",
+    "pydantic-settings"
+]

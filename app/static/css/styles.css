@@ -1,0 +1,17 @@
+body { margin: 0; font-family: sans-serif; background: #f0f2f5; color: #333; }
+.navbar { background: #1e3c72; padding: 15px 30px; }
+.navbar .brand { color: #fff; font-size: 1.25rem; font-weight: bold; text-decoration: none; }
+.card-container { display: flex; justify-content: center; padding: 40px 20px; }
+.form-card { background: #fff; border-radius: 8px; padding: 30px; width: 100%; max-width: 480px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+input, select, textarea { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+textarea { height: 80px; }
+.btn { display: inline-block; padding: 12px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; cursor: pointer; border: none; }
+.primary-btn { background: #007bff; color: white; width: 100%; }
+.success-btn { background: #28a745; color: white; }
+.preview-container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+.panel-card { background: white; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+.panel-img { width: 100%; max-height: 400px; object-fit: cover; border-radius: 4px; }
+.actions-bar { text-align: center; margin: 30px 0; }
+.error-box { background: #ffebee; color: #c62828; padding: 10px; border-radius: 4px; }

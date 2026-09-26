@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Comic Preview{% endblock %}
+{% block content %}
+<div class="preview-container">
+    <h2>📖 Your Comic Preview</h2>
+    {% for panel in layout %}
+    <div class="panel-card">
+        <h3>Panel {{ panel.panel }}: {{ panel.title }}</h3>
+        <img src="{{ panel.image_path }}" class="panel-img">
+        <p class="scene-desc"><em>{{ panel.scene_description }}</em></p>
+        <div class="panel-text">{{ panel.text }}</div>
+    </div>
+    {% endfor %}
+    <div class="actions-bar">
+        <a href="{{ pdf_path }}" download class="btn success-btn" onclick="handlePdfDownload('{{ pdf_path }}')">Download Your Comic as PDF</a>
+    </div>
+</div>
+{% endblock %}
